@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome @ ORION</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Dancing+Script&family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{url_for('static', filename='index.css')}}">
+  </head>
+  <body>
+
+    <div class="navbar">
+      <div class="navbar-list">
+        <img src="{{url_for('static', filename='orion.png')}}" height="40" width="100">
+      </div>
+    </div>
+
+    <div class="quote">
+      Exploration is really the essence of the human spirit.
+    </div>
+
+    <div class="get-started">
+      <div class="get-started-btn">
+        <a href="{{ url_for('auth.register') }}">Get started</a>
+      </div>
+    </div>
+
+
+  </body>
+</html>

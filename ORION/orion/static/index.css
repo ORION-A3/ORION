@@ -1,0 +1,71 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  background-color: #0F1012;
+  color:white;
+}
+
+img{
+  float: none;
+}
+
+.navbar{
+  margin-left: 10%;
+  margin-top: 2%;
+}
+
+.quote{
+  color:white;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 5rem;
+  font-family: 'Berkshire Swash', cursive;
+}
+
+.get-started-btn{
+  margin: auto;
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 5rem;
+  font-weight: 600;
+  border:2px solid green;
+  width: 15%;
+  padding-top:1rem;
+  padding-bottom: 1rem;
+  font-size: 1.5rem;
+  border:none;
+  transition: all 1s ease;
+  border-radius: 25px;
+  background: rgb(39,171,11);
+  background: linear-gradient(90deg, rgba(39,171,11,1) 0%, rgba(44,237,78,1) 50%, rgba(133,227,87,1) 82%, rgba(149,242,58,1) 100%);
+}
+
+.get-started-btn:hover{
+  transform: scale(1.1);
+  transition: all 1s ease;
+
+}
+
+.get-started-btn a, .get-started-btn a:visited{
+  text-decoration: none;
+  color:white;
+}
+
+.get-started-btn a:hover{
+  color:#d6d4d4;
+}
+
+.exploration img{
+  height:60vh;
+  width: 60vw;
+  display: inline-block;
+  text-align: center;
+}
+
+.exploration{
+  margin-top: 8%;
+  text-align: center;
+}
